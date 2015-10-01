@@ -1,0 +1,254 @@
+
+body {
+    width: 100%;
+    margin: -2% 0% 0% 0%;
+    font-family: verdana;
+    background-color: darkgray
+}
+body > main {
+    margin: 1% 5%;
+    width: 90%;
+    padding: 0em 0.5em 1em 0.5em;
+    border-radius: 0.2em;
+    background-color: lightgrey;
+    -webkit-box-shadow: 7px 7px 8px 0px rgba(48, 50, 50,0.42);
+    -moz-box-shadow:    7px 7px 8px 0px rgba(48, 50, 50,0.42);
+    box-shadow:         7px 7px 8px 0px rgba(48, 50, 50,0.42);
+
+}
+
+img {
+    width: 40%;
+    margin: 0.5% 30% 0.5% 30%;
+}
+
+button {
+    width: 10em;
+    background: white;
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
+    transition: width 2s, height 2s, transform 2s;
+}
+button:hover {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+}
+
+body > article {
+    width: 90%;
+    margin: 0% 5%;
+    background-color: lightgray;
+    padding: 0em 0.5em 1em 0.5em;
+    border-radius: 0.2em;
+    -webkit-box-shadow: 7px 7px 8px 0px rgba(48, 50, 50,0.42);
+    -moz-box-shadow:    7px 7px 8px 0px rgba(48, 50, 50,0.42);
+    box-shadow:         7px 7px 8px 0px rgba(48, 50, 50,0.42);
+}
+body > header {
+    width: 100%;
+    background-color: gold;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 7px 7px 8px 0px rgba(48, 50, 50,0.42);
+    -moz-box-shadow:    7px 7px 8px 0px rgba(48, 50, 50,0.42);
+    box-shadow:         7px 7px 8px 0px rgba(48, 50, 50,0.42);
+}
+body > header > h1 {
+    color: white;
+    background-color: black;
+    padding: 0.5em 1em 0em 1em;
+    text-shadow: 0.02em 0.02em yellow ;
+
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    padding: 0%
+}
+body > header > nav > ul > li {
+
+    width: 100%;
+    list-style: none;
+    padding: 0.5em 2em 0.5em 2em;
+   text-align: center;
+
+}
+
+body > header > nav {
+    margin: 2% 0%;
+    color: white;
+     box-shadow:         7px 7px 8px 0px rgba(48, 50, 50,0.42);
+
+}
+body > header > form {
+float: right;
+margin: -2% 1%;
+color:white}
+
+body > header > p {
+    color: white;
+    background-color: black;
+    margin: -2% 0% 0% 0%;
+    padding: 0em 2.1em 0.5em ;
+
+}
+body > header > (p + 1) {
+    color: white;
+    background-color: black;
+    top: 10%;
+    margin: -2% 0% 0% 0%;
+    padding: 0em 2.1em 0.5em ;
+
+}
+body > main > ol {
+    text-align-last: center;
+}
+section.related {
+    margin: 1% 5%;
+    display: flex;
+    flex-direction: column;
+    width:90%;
+    justify-content: space-around;
+    background-color: lightgray;
+    padding: 0em 0.5em 1em 0.5em;
+    border-radius: 0.2em;
+    -webkit-box-shadow: 7px 7px 8px 0px rgba(48, 50, 50,0.42);
+    -moz-box-shadow:    7px 7px 8px 0px rgba(48, 50, 50,0.42);
+    box-shadow:         7px 7px 8px 0px rgba(48, 50, 50,0.42);
+}
+section.related > article {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 30%;
+}
+
+body > aside {
+    float: left;
+    margin: 1% 5%;
+    width: 90%;
+    background-color: lightgray;
+    padding: 0em 0.5em 1em 0.5em;
+    border-radius: 0.2em;
+    -webkit-box-shadow: 7px 7px 8px 0px rgba(48, 50, 50,0.42);
+    -moz-box-shadow:    7px 7px 8px 0px rgba(48, 50, 50,0.42);
+    box-shadow:         7px 7px 8px 0px rgba(48, 50, 50,0.42);
+}
+body > footer {
+    display: flex;
+    flex-direction: row;
+    background-color: gold;
+    float: left;
+    width: 100%;
+}
+
+#sitemap {
+
+    padding: 1em;
+    width:100%;
+}
+#search {
+    padding: 1em;
+    width: 100%;
+}
+#about {padding: 1em;
+    width: 130%;
+}
+#contact { padding:  1em;
+    width: 100%;
+}
+#feedback{
+    color: white;
+    background-color: gold;
+    position: fixed;
+    top: 40%;
+    width: 10%;
+   }
+
+body > footer > li {
+    display: flex;
+    flex-direction: column;
+}
+#credits {
+    transform: rotate(180deg) scale(0.829) skew(0deg) translate(8px);
+-webkit-transform: rotate(180deg) scale(0.829) skew(0deg) translate(8px);
+-moz-transform: rotate(180deg) scale(0.829) skew(0deg) translate(8px);
+-o-transform: rotate(180deg) scale(0.829) skew(0deg) translate(8px);
+-ms-transform: rotate(180deg) scale(0.829) skew(0deg) translate(8px);
+}
+
+main > form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: space-between;
+
+}
+body > footer > section> ul > li {
+
+    width: 100%;
+    list-style: none;
+
+}
+body > footer > section> ul > li> ul > li {
+    color: white;
+    width: 100%;
+    list-style: none;
+
+}
+
+body > header > nav > ul > li:hover {
+    background-color: black;
+
+}
+body > header > nav > ul > li > a:link {
+    color: white;
+    text-decoration: none;
+}
+body > header > nav > ul > li > a:visited {
+    color:white;
+    ext-decoration: none;
+}
+body > header > nav > ul > li > a:active {color: white;
+        text-decoration: none;
+}
+
+body > footer > section> ul > li> ul > li > a:active {
+        color: black;
+        text-decoration: none;
+}
+body > footer > section> ul > li> ul > li > a:visited {
+    color: black;
+    ext-decoration: none;
+}
+body > footer > section> ul > li> ul > li > a:link {
+    color: black;
+    text-decoration: none;
+}
+body > footer > section> ul > li> a:active {
+        color: black;
+        text-decoration: none;
+}
+body > footer > section> ul > li>  a:visited {
+    color: black;
+    ext-decoration: none;
+}
+body > footer > section> ul > li>  a:link {
+    color: black;
+    text-decoration: none;
+}
+
+/*max groote scherm 100px, anders normaal*/
+@media screen and (max-width: 80em ) {
+    img {
+        width: 70%;
+        margin: 0.5% 30% 0.5% 30%;
+    }
+}
+
+
+
+
